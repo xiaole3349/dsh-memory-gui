@@ -1,0 +1,3 @@
+- insert:
+    - id: memory-gui
+      name: dsh-memory-gui

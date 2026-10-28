@@ -1,0 +1,17 @@
+{
+  "name": "dsh-memory-gui",
+  "version": "0.1.0",
+  "description": "记忆库与图书馆的浏览 GUI：搜索、筛选记忆，管理图书馆（复用 dsh-pin 的库）。",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": ["lib", "cordis.patch.yml"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
